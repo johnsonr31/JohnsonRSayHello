@@ -1,0 +1,15 @@
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\bin\Debug\net6.0\RJohnsonSayHello.exe
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\bin\Debug\net6.0\RJohnsonSayHello.deps.json
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\bin\Debug\net6.0\RJohnsonSayHello.runtimeconfig.json
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\bin\Debug\net6.0\RJohnsonSayHello.dll
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\bin\Debug\net6.0\RJohnsonSayHello.pdb
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\obj\Debug\net6.0\RJohnsonSayHello.csproj.AssemblyReference.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\obj\Debug\net6.0\RJohnsonSayHello.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\obj\Debug\net6.0\RJohnsonSayHello.AssemblyInfoInputs.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\obj\Debug\net6.0\RJohnsonSayHello.AssemblyInfo.cs
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\obj\Debug\net6.0\RJohnsonSayHello.csproj.CoreCompileInputs.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\obj\Debug\net6.0\RJohnsonSayHello.dll
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\obj\Debug\net6.0\refint\RJohnsonSayHello.dll
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\obj\Debug\net6.0\RJohnsonSayHello.pdb
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\obj\Debug\net6.0\RJohnsonSayHello.genruntimeconfig.cache
+C:\Users\rcj53\Documents\CodeStack Assignments\Lvl1\Week 1\RJohnsonSayHello\obj\Debug\net6.0\ref\RJohnsonSayHello.dll
