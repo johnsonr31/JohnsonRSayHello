@@ -5,6 +5,7 @@
 
 // This bool is declared to decide if the game loops
 bool playAgain = true;
+bool endingLoop = true;
 
 // This while statement will loop the game as long as playAgain is true
 Console.Clear();
@@ -30,6 +31,10 @@ while(playAgain == true)
         Console.WriteLine($"\"Good evening, {userInput}. I hope you're having a good day today!\"");
         // The player will be asked if they'd like to play again, and their input will be recieved and set to uppercase
         Console.Write("Want to play again? YES or NO: ");
+        endingLoop = true;
+        
+    while(endingLoop == true)
+    {
         string yesNo = Console.ReadLine();
         yesNo = yesNo.ToUpper();
 
@@ -38,17 +43,21 @@ while(playAgain == true)
             // If the player types NO, playAgain is false
             Console.WriteLine($"Goodbye, {userInput}...");
             playAgain = false;
+            endingLoop = false;
         }
         else if(yesNo == "YES")
         {
             // If the player types YES, playAgain is still true, and the loop continues
             Console.WriteLine("Alright!");
+            endingLoop = false;
         }
         else
         {
-            Console.WriteLine("Well, I didn't read a NO...");
-            Console.WriteLine(" ");
+            Console.WriteLine("Invalid input");
+            Console.Write("Please type YES or NO: ");
         }
+    }
+        
         
         
         
