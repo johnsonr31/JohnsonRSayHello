@@ -33,8 +33,10 @@ while(playAgain == true)
         Console.Write("Want to play again? YES or NO: ");
         endingLoop = true;
         
+    // This is a second while loop that will loop if the player doesn't write YES or NO.
     while(endingLoop == true)
     {
+        // This will take the user's input, and save it to a string. It will also set it to uppercase
         string yesNo = Console.ReadLine();
         yesNo = yesNo.ToUpper();
 
@@ -53,6 +55,8 @@ while(playAgain == true)
         }
         else
         {
+            // If the player types anything aside from YES or NO, this will be printed to the console,
+            // and they will be asked to type YES or NO again
             Console.WriteLine("Invalid input");
             Console.Write("Please type YES or NO: ");
         }
