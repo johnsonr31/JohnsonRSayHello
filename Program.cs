@@ -72,7 +72,7 @@ while(playAgain == true)
     else if(isNum == true)
     {
         Console.WriteLine(" ");
-        Console.WriteLine("Names don't contain numbers");
+        Console.WriteLine("Names aren't numbers");
         Console.WriteLine("Please enter a name");
         Console.WriteLine(" ");
     }
