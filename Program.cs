@@ -6,18 +6,21 @@
 // This bool is declared to decide if the game loops
 bool playAgain = true;
 bool endingLoop = true;
+bool isNum;
+int num = 0;
 
-// This while statement will loop the game as long as playAgain is true
+// This while loop will continue as long as playAgain is true
 Console.Clear();
 while(playAgain == true)
 {
     // These will print text to the console to address the player
     Console.WriteLine("\"Oh, hello there! What is your name?\"");
-    Console.Write("Type your name, or type \"END\" to end it: ");
+    Console.Write("Type your name, or type END to end it: ");
 
     // This will take the user's input, and save it as a string. The line beneath that one will take the user's input and set it to be uppercase
     string userInput = Console.ReadLine();
     userInput = userInput.ToUpper();
+    isNum = Int32.TryParse(userInput, out num);
     if (userInput == "END")
     {
         // This will run if the player types "END"
@@ -25,9 +28,9 @@ while(playAgain == true)
         // playAgain is now set to false, ending the game
         playAgain = false;
     }
-    else
+    else if (isNum != true)
     {
-        // This will run if the player types anything aside from "NO"
+        // This will run if the player types anything aside from "END"
         Console.WriteLine($"\"Good evening, {userInput}. I hope you're having a good day today!\"");
         // The player will be asked if they'd like to play again, and their input will be recieved and set to uppercase
         Console.Write("Want to play again? YES or NO: ");
@@ -65,6 +68,13 @@ while(playAgain == true)
         
         
         
+    }
+    else if(isNum == true)
+    {
+        Console.WriteLine(" ");
+        Console.WriteLine("Names don't contain numbers");
+        Console.WriteLine("Please enter a name");
+        Console.WriteLine(" ");
     }
 }
     
