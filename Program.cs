@@ -19,7 +19,6 @@ while(playAgain == true)
 
     // This will take the user's input, and save it as a string. The line beneath that one will take the user's input and set it to be uppercase
     string userInput = Console.ReadLine();
-    userInput = userInput.ToUpper();
     isNum = Int32.TryParse(userInput, out num);
     if (userInput == "END" && isNum != true)
     {
