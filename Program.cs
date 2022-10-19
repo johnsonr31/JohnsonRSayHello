@@ -21,7 +21,7 @@ while(playAgain == true)
     string userInput = Console.ReadLine();
     userInput = userInput.ToUpper();
     isNum = Int32.TryParse(userInput, out num);
-    if (userInput == "END")
+    if (userInput == "END" && isNum != true)
     {
         // This will run if the player types "END"
         Console.WriteLine("Alright, goodbye.");
@@ -30,7 +30,7 @@ while(playAgain == true)
     }
     else if (isNum != true)
     {
-        // This will run if the player types anything aside from "END"
+        // This will run if the player types any input aside from END and their input isn't a number
         Console.WriteLine($"\"Good evening, {userInput}. I hope you're having a good day today!\"");
         // The player will be asked if they'd like to play again, and their input will be recieved and set to uppercase
         Console.Write("Want to play again? YES or NO: ");
@@ -46,7 +46,7 @@ while(playAgain == true)
             if(yesNo == "NO")
         {
             // If the player types NO, playAgain is false
-            Console.WriteLine($"Goodbye, {userInput}...");
+            Console.WriteLine($"Then goodbye, {userInput}.");
             playAgain = false;
             endingLoop = false;
         }
